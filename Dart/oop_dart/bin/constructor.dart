@@ -17,4 +17,7 @@ void main() {
   var person = Person('putra', 'sampit');
   person.nama = 'siro';
   person.sapaan('budi');
+
+  person.alamat = 'jonggol';
+  print(person.alamat);
 }
